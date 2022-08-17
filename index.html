@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Timer</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="anti-click"></div>
+        <section class="countdown">
+            <!-- <div class="multiplier">10</div> -->
+            <div class="container">
+                <h1 class="countdown__title">Timer</h1>
+                <div class="countdown__timer">
+                    <div class="countdown__number">
+                        <div class="add"></div>
+                        <div class="countdown__day _date">00</div>
+                        <div class="reduce"></div>
+                    </div>
+                    <span>:</span>
+                    <div class="countdown__number">
+                        <div class="add"></div>
+                        <div class="countdown__hours _date">00</div>
+                        <div class="reduce"></div>
+                    </div>
+                    <span>:</span>
+                    <div class="countdown__number">
+                        <div class="add"></div>
+                        <div class="countdown__minutes _date">00</div>
+                        <div class="reduce"></div>
+                    </div>
+
+                </div>
+                <div class="countdown__controls controls">
+                    <button class="controls__run btn">RUN</button>
+                    <button class="controls__reset btn">RESET</button>
+                    <button class="controls__pause btn" disabled>PAUSE</button>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <script src="countdown.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
